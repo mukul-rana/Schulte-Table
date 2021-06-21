@@ -1,0 +1,46 @@
+table, td{
+    border: 1px solid black;
+    font-size: 40px;
+    
+}
+td:hover{
+   background-color: blue; 
+}
+body{
+    background-color: cyan;
+    width: 35%;
+        margin-left:auto;
+        margin-right:auto;
+    
+}
+td{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+}
+
+#start{
+    background-color: gray;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+}
+#start:hover{
+    background-color: black;
+}
+#timer{
+    margin: 10px;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    /* width: 70px; */
+    font-size: 30px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+
+h1{
+    text-align: center;
+}
