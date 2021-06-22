@@ -18,7 +18,9 @@ document.getElementById('start').onclick = function(){
     document.getElementById('current').style.color = 'white';
     document.getElementById('current').style.fontSize = '30px';
     document.getElementById('current').style.height = '40px';
+    document.getElementById('current').style.width = '30px';
     document.getElementById('current').style.padding = '10px';
+    document.getElementById('current').style.textAlign = 'center';
     //Timer started
      timer = window.setInterval(timerStart,10);
     startTime = new Date().getTime(); 
