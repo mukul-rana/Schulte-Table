@@ -39,7 +39,7 @@ function timerStart(){
 
 $(document).ready(function(){
     $("table td").click(function() {
-        console.log((this).innerHTML) ;
+
 
         if(this.innerHTML == String(track)){
             if(track == 25){
@@ -50,8 +50,7 @@ $(document).ready(function(){
             document.getElementById('current').innerHTML = track;
             
         }
-        else
-            console.log("WRONG!!");
+        
 
         var column_num = parseInt( $(this).index() ) + 1;
         var row_num = parseInt( $(this).parent().index() )+1;
@@ -76,7 +75,7 @@ function shuffleArray(array) {
 
   function timeString(a,b){
       a+='';
-      console.log(a.length + " " + b);
+      
       if(a.length ==b ) return a;
       var s = '';
       for(var i=0;i<b-a.length;i++)
